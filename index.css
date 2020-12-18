@@ -23,3 +23,9 @@ span {
   box-shadow: inset 10em 0 0 0 white;
   color: #000000 !important;
 }
+
+@media (max-width: 500px) {
+  .btn {
+    width: auto;
+  }
+}
