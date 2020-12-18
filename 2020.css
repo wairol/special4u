@@ -1,0 +1,29 @@
+body {
+  font-size: 24px;
+  color: white;
+  background: #355c7d;
+  background: -webkit-linear-gradient(
+    to right,
+    #c06c84,
+    #6c5b7b,
+    #355c7d
+  );
+  background: linear-gradient(
+    to right,
+    #c06c84,
+    #6c5b7b,
+    #355c7d
+  );
+}
+
+p {
+  height: 100vh;
+  padding: 32px 30px;
+  text-align: justify;
+}
+
+@media (max-width: 415px) {
+  * {
+    font-size: 16px;
+  }
+}
